@@ -3,7 +3,8 @@
 ![til](./preview.gif)
 
 ## Description
-Replaces generated near player cobblestone/stone/basalt/obsidian with block from loot table determined by source block and dimension.
+Replaces generated near player cobblestone/stone/basalt/obsidian block with block from loot table.
+Loot tables are different for each dimension.
 
 In terms of performance, works in 1 block radius around player.
 Works fine in singleplayer and small multiplayer.
