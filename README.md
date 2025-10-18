@@ -1,5 +1,7 @@
 # Ore Generators Plus
 
+![til](./preview.gif)
+
 ## Description
 Replaces generated near player cobblestone/stone/basalt/obsidian with block from loot table determined by source block and dimension.
 
