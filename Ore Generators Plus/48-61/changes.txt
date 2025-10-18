@@ -1,0 +1,6 @@
+#rollbacks
+
+ore_generators/setblock_with_loot_table.mcfunction
+equipment.head.id => ArmorItems[3].id
+
+removed resin block from loot tables

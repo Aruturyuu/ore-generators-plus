@@ -1,0 +1,68 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:constant",
+				"value": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:basalt",
+							"weight": 50,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:netherrack",
+							"weight": 12,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:bone_block",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:glowstone",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:nether_gold_ore",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:gilded_blackstone",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:nether_quartz_ore",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:ancient_debris",
+							"weight": 1,
+							"quality": 0
+						}
+					]
+				}
+			],
+			"conditions": []
+		}
+	],
+	"functions": []
+}

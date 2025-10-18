@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:constant",
+				"value": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:obsidian",
+							"weight": 50,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:crying_obsidian",
+							"weight": 10,
+							"quality": 0
+						}
+					]
+				}
+			],
+			"conditions": []
+		}
+	],
+	"functions": []
+}

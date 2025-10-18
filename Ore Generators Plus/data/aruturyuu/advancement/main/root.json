@@ -1,0 +1,29 @@
+{
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"display": {
+		"announce_to_chat": false,
+		"background": "minecraft:gui/advancements/backgrounds/stone",
+		"description": {
+			"text": ""
+		},
+		"icon": {
+			"count": 1,
+			"id": "minecraft:cobblestone"
+		},
+		"show_toast": false,
+		"title": {
+			"text": ""
+		},
+		"hidden": true
+	},
+	"requirements": [
+		[
+			"tick"
+		]
+	],
+	"sends_telemetry_event": false
+}

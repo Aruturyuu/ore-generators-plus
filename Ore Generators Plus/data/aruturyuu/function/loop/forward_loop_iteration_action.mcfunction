@@ -1,0 +1,1 @@
+$function aruturyuu:$(function_folder)/$(function_name) with storage aruturyuu:loop.forward iteration_data

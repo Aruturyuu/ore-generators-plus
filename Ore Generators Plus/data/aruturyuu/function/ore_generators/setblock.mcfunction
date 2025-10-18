@@ -1,0 +1,1 @@
+$execute in $(d) run setblock $(x) $(y) $(z) $(b)

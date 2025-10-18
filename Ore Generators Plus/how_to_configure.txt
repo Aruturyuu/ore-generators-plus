@@ -1,0 +1,8 @@
+If you want change chances and possible outcomes, you need to edit files located there:  
+[1.21-1.21.4] - 48-61/data/aruturyuu/loot_table  
+[1.21.5-1.21.10] - data/aruturyuu/loot_table  
+Dimensions: 
+0 - overworld  
+1 - the_nether  
+2 - the_end  
+3 - any other dimensions

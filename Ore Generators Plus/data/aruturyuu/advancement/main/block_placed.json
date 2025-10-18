@@ -1,0 +1,51 @@
+{
+	"parent": "aruturyuu:main/root",
+	"display": {
+		"icon": {
+			"id": "minecraft:cobblestone"
+		},
+		"title": "",
+		"description": "",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"placed_block": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"location": [
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:water"
+						}
+					},
+					{
+						"condition": "minecraft:inverted",
+						"term": {
+							"condition": "minecraft:block_state_property",
+							"block": "minecraft:lava"
+						}
+					}
+				]
+			}
+		},
+		"any_block_use": {
+			"trigger": "minecraft:any_block_use"
+		}
+	},
+	"requirements": [
+		[
+			"placed_block"
+		],
+		[
+			"any_block_use"
+		]
+	],
+	"rewards": {
+		"function": "aruturyuu:placed_blocks_tracking/track_placed_block"
+	},
+	"sends_telemetry_event": false
+}

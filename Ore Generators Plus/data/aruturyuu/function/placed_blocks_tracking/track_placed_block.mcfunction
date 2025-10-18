@@ -1,0 +1,2 @@
+advancement revoke @s only aruturyuu:main/block_placed
+function aruturyuu:raycast/raycast {prefix:'placed_blocks_tracking',distance:6,ignore_liquids:1,function_folder:'placed_blocks_tracking',function_name:'write_block_to_storage',function_arguments:{x:'~',y:'~',z:'~'}}

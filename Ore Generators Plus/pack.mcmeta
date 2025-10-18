@@ -1,0 +1,27 @@
+{
+  "pack": {
+    "description": {
+			"text": "Version: 1.0\nMade by Aruturyuu."
+		},
+    "pack_format": 88,
+    "supported_formats": {
+			"min_inclusive": 1,
+			"max_inclusive": 88
+		},
+    "min_format": 1,
+    "max_format": 88
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": {
+					"min_inclusive": 48,
+					"max_inclusive": 61
+				},
+				"min_format": 48,
+				"max_format": 61,
+        "directory": "48-61"
+      }
+    ]
+  }
+}

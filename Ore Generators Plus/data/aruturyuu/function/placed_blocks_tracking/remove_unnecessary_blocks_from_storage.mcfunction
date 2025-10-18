@@ -1,0 +1,3 @@
+$execute in $(d) unless loaded $(x) $(y) $(z) run return run data remove storage aruturyuu:placed_blocks_tracking positions[{data:{d:"$(d)",x:$(x),y:$(y),z:$(z)}}]
+$execute in $(d) if block $(x) $(y) $(z) #minecraft:air run data remove storage aruturyuu:placed_blocks_tracking positions[{data:{d:"$(d)",x:$(x),y:$(y),z:$(z)}}]
+$execute in $(d) positioned $(x) $(y) $(z) unless entity @p[distance=..10] run data remove storage aruturyuu:placed_blocks_tracking positions[{data:{d:"$(d)",x:$(x),y:$(y),z:$(z)}}]

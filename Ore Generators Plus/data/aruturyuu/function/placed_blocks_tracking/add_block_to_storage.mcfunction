@@ -1,0 +1,1 @@
+$execute unless data storage aruturyuu:placed_blocks_tracking positions[{data:{d:"$(d)",x:$(x),y:$(y),z:$(z)}}] run data modify storage aruturyuu:placed_blocks_tracking positions append value {data:{d:"$(d)",x:$(x),y:$(y),z:$(z)}}

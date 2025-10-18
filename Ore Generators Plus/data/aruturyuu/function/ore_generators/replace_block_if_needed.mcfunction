@@ -1,0 +1,5 @@
+$execute if data storage aruturyuu:placed_blocks_tracking positions[{data:{x:$(x),y:$(y),z:$(z),d:"$(d)"}}] run return fail
+$execute in $(d) if block $(x) $(y) $(z) minecraft:cobblestone run function aruturyuu:ore_generators/setblock_with_loot_table {x:$(x),y:$(y),z:$(z),d:"$(d)",di:$(di),t:"cobblestone"}
+$execute in $(d) if block $(x) $(y) $(z) minecraft:stone run function aruturyuu:ore_generators/setblock_with_loot_table {x:$(x),y:$(y),z:$(z),d:"$(d)",di:$(di),t:"stone"}
+$execute in $(d) if block $(x) $(y) $(z) minecraft:obsidian run function aruturyuu:ore_generators/setblock_with_loot_table {x:$(x),y:$(y),z:$(z),d:"$(d)",di:$(di),t:"obsidian"}
+$execute in $(d) if block $(x) $(y) $(z) minecraft:basalt run function aruturyuu:ore_generators/setblock_with_loot_table {x:$(x),y:$(y),z:$(z),d:"$(d)",di:$(di),t:"basalt"}

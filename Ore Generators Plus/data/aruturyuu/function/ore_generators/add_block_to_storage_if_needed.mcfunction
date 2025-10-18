@@ -1,0 +1,2 @@
+$execute if data storage aruturyuu:ore_generators positions[{data:{x:$(x),y:$(y),z:$(z),d:"$(d)"}}] run return fail
+$data modify storage aruturyuu:ore_generators positions append value {data:{x:$(x),y:$(y),z:$(z),d:"$(d)",di:$(di)}}

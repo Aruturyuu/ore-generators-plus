@@ -1,0 +1,4 @@
+$execute if score @s $(prefix).raycast.ignore_liquids matches 0 unless block ~ ~ ~ #aruturyuu:raycast_targets_with_liquids run function aruturyuu:raycast/ray_hit_block {prefix:$(prefix),function_folder:$(function_folder),function_name:$(function_name),function_arguments:$(function_arguments)}
+$execute if score @s $(prefix).raycast.ignore_liquids matches 1 if block ~ ~ ~ #aruturyuu:raycast_targets run function aruturyuu:raycast/ray_hit_block {prefix:$(prefix),function_folder:$(function_folder),function_name:$(function_name),function_arguments:$(function_arguments)}
+$scoreboard players remove @s $(prefix).raycast.steps 1
+$execute if score @s $(prefix).raycast.steps matches 1.. if score @s $(prefix).raycast.success matches 0 positioned ^ ^ ^0.1 run function aruturyuu:raycast/ray_step {prefix:$(prefix),function_folder:$(function_folder),function_name:$(function_name),function_arguments:$(function_arguments)}

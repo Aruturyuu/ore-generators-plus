@@ -1,0 +1,1 @@
+$function aruturyuu:loop/forward_loop_start {storage_name:$(storage_name),storage_array:$(storage_array),function_folder:$(function_folder),function_name:$(function_name)}

@@ -1,0 +1,1 @@
+data remove storage aruturyuu:ore_generators to_replace

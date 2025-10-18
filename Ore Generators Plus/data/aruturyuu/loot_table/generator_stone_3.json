@@ -1,0 +1,44 @@
+{
+	"type": "minecraft:generic",
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:constant",
+				"value": 1
+			},
+			"entries": [
+				{
+					"type": "minecraft:group",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:stone",
+							"weight": 200,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:calcite",
+							"weight": 50,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:end_stone",
+							"weight": 10,
+							"quality": 0
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:resin_block",
+							"weight": 10,
+							"quality": 0
+						}
+					]
+				}
+			],
+			"conditions": []
+		}
+	],
+	"functions": []
+}
